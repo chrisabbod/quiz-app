@@ -137,5 +137,35 @@
                 android:text="@string/moscow"
                 android:textAppearance="?android:textAppearanceMedium" />
         </LinearLayout>
+
+        <!-- QUESTION 6 -->
+        <TextView
+            android:text="@string/question_six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- QUESTION 7 -->
+        <TextView
+            android:text="@string/question_seven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- QUESTION 8 -->
+        <TextView
+            android:text="@string/question_eight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- QUESTION 9 -->
+        <TextView
+            android:text="@string/question_nine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- QUESTION 10 -->
+        <TextView
+            android:text="@string/question_ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 </ScrollView>
