@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Quiz App</string>
     <string name="edit_text_hint">Please Enter Answer</string>
+    <string name="submit_button_text">Submit</string>
 
     <!-- Geography Questions -->
     <string name="question_one">1. True or False: Iceland is covered in ice.</string>
