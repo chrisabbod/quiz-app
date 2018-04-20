@@ -229,6 +229,25 @@
             android:layout_height="275dp"
             android:scaleType="fitStart"
             android:src="@drawable/question_eight_image" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/superior_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/superior"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/michigan_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/michigan"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
         <!-- QUESTION 9 -->
         <TextView
             android:text="@string/question_nine"

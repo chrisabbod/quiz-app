@@ -43,10 +43,10 @@
     <string name="germany">Germany</string>
     <string name="spain">Spain</string>
 
-    <string name="huron">Huron</string>
-    <string name="superior">Superior</string>
-    <string name="erie">Erie</string>
-    <string name="michigan">michigan</string>
+    <string name="huron">Lake Huron</string>
+    <string name="superior">Lake Superior</string>
+    <string name="erie">Lake Erie</string>
+    <string name="michigan">Lake Michigan</string>
 
     <string name="yellow">Yellow River</string>
     <string name="amazon">Amazon River</string>
