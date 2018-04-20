@@ -264,5 +264,23 @@
             android:text="@string/question_ten"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/amazon_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/amazon"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/nile_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nile"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
     </LinearLayout>
 </ScrollView>
