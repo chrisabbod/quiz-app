@@ -8,5 +8,9 @@
     <string name="question_four">How many Great Lakes are there?</string>
     <string name="question_five">Which of these cities is not in Europe?</string>
     <string name="question_six">The United Kingdom is comprised of how many countries?</string>
+    <string name="question_seven">Which of the following countries do not border France?</string>
+    <string name="question_eight">Which lake is the arrow pointing to?</string>
+    <string name="question_nine">Which U.S. state is the Grand Canyon located in?</string>
+    <string name="question_ten">What is the longest river in the world?</string>
 
 </resources>
