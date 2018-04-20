@@ -15,10 +15,46 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/q1_true_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer_true"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/q1_false_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer_false"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
         <TextView
             android:text="@string/question_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/pacific_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pacific"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/atlantic_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/atlantic"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
 
         <TextView
             android:text="@string/question_three"
