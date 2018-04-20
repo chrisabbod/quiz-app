@@ -224,6 +224,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="275dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/question_eight_image" />
         <!-- QUESTION 9 -->
         <TextView
             android:text="@string/question_nine"
