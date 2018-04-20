@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <!-- QUESTION 1 -->
         <TextView
             android:text="@string/question_one"
             android:layout_width="wrap_content"
@@ -33,6 +34,7 @@
                 android:textAppearance="?android:textAppearanceMedium" />
         </RadioGroup>
 
+        <!-- QUESTION 2 -->
         <TextView
             android:text="@string/question_two"
             android:layout_width="wrap_content"
@@ -56,16 +58,37 @@
                 android:textAppearance="?android:textAppearanceMedium" />
         </RadioGroup>
 
+        <!-- QUESTION 3 -->
         <TextView
             android:text="@string/question_three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/everest_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/everest"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/kilimanjaro_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kilimanjaro"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+        <!-- QUESTION 4 -->
         <TextView
             android:text="@string/question_four"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+        <!-- QUESTION 5 -->
         <TextView
             android:text="@string/question_five"
             android:layout_width="wrap_content"
