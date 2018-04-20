@@ -2,15 +2,15 @@
     <string name="app_name">Quiz App</string>
 
     <!-- Geography Questions -->
-    <string name="question_one">True or False: Iceland is covered in ice.</string>
-    <string name="question_two">Which ocean lies on the east coast of the United States?</string>
-    <string name="question_three">Which is the world\'s highest mountain?</string>
-    <string name="question_four">How many Great Lakes are there?</string>
-    <string name="question_five">Which of these cities is not in Europe?</string>
-    <string name="question_six">The United Kingdom is comprised of how many countries?</string>
-    <string name="question_seven">Which of the following countries do not border France?</string>
-    <string name="question_eight">Which lake is the arrow pointing to?</string>
-    <string name="question_nine">Which U.S. state is the Grand Canyon located in?</string>
-    <string name="question_ten">What is the longest river in the world?</string>
+    <string name="question_one">1. True or False: Iceland is covered in ice.</string>
+    <string name="question_two">2. Which ocean lies on the east coast of the United States?</string>
+    <string name="question_three">3. Which is the world\'s highest mountain?</string>
+    <string name="question_four">4. Name one of the Great Lakes.</string>
+    <string name="question_five">5. Which of these cities is not in Europe?</string>
+    <string name="question_six">6. The United Kingdom is comprised of how many countries?</string>
+    <string name="question_seven">7. Which of the following countries do not border France?</string>
+    <string name="question_eight">8. Which lake is the arrow pointing to?</string>
+    <string name="question_nine">9. Which U.S. state is the Grand Canyon located in?</string>
+    <string name="question_ten">10. What is the longest river in the world?</string>
 
 </resources>
