@@ -13,4 +13,43 @@
     <string name="question_nine">9. Which U.S. state is the Grand Canyon located in?</string>
     <string name="question_ten">10. What is the longest river in the world?</string>
 
+    <!-- Answers -->
+    <string name="answer_true">True</string>
+    <string name="answer_false">False</string>
+
+    <string name="atlantic">Atlantic</string>
+    <string name="pacific">Pacific</string>
+    <string name="indian">Indian</string>
+    <string name="eastern">Eastern</string>
+
+    <string name="k2">K2</string>
+    <string name="kilimanjaro">Kilimanjaro</string>
+    <string name="makalu">Makalu</string>
+    <string name="everest">Everest</string>
+
+    <string name="reykjavik">Reykjavik</string>
+    <string name="barcelona">Barcelona</string>
+    <string name="prague">Prague</string>
+    <string name="moscow">Moscow</string>
+
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="eight">8</string>
+
+    <string name="italy">Italy</string>
+    <string name="netherlands">Netherlands</string>
+    <string name="germany">Germany</string>
+    <string name="spain">Spain</string>
+
+    <string name="huron">Huron</string>
+    <string name="superior">Superior</string>
+    <string name="erie">Erie</string>
+    <string name="michigan">michigan</string>
+
+    <string name="yellow">Yellow River</string>
+    <string name="amazon">Amazon River</string>
+    <string name="nile">Nile River</string>
+    <string name="congo">Congo River</string>
+
 </resources>
