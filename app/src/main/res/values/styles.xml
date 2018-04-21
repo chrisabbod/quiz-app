@@ -3,9 +3,9 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#00BCD4</item>
-        <item name="colorPrimaryDark">#00BCD4</item>
-        <item name="colorAccent">#0097A7</item>
+        <item name="colorPrimary">#5C6BC0</item>
+        <item name="colorPrimaryDark">#3F51B5</item>
+        <item name="colorAccent">#303F9F</item>
     </style>
 
     <style name="HeaderTextStyle">
@@ -43,7 +43,7 @@
     <style name="ButtonStyle">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:background">#B2DFDB</item>
+        <item name="android:background">#5C6BC0</item>
         <item name="android:layout_margin">16dp</item>
         <item name="android:layout_gravity">center_horizontal</item>
     </style>
