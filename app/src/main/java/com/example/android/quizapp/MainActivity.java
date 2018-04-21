@@ -8,7 +8,6 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    public int userScore = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
      * @param v is the submit_button
      */
     public void getScore(View v){
+        int userScore = 0;
         userScore += questionOne();
 
         Toast.makeText(this, "Your score is " + userScore + " points!", Toast.LENGTH_LONG).show();
@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         RadioButton trueRadioButton = (RadioButton)findViewById(R.id.q1_true_radio_button);
 
         if(trueRadioButton.isChecked()){
-            //Toast.makeText(this, "TRUE", Toast.LENGTH_LONG).show();
             return 1;
         }
         return 0;
