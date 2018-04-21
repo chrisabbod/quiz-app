@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         userScore += questionTwo();
         userScore += questionThree();
         userScore += questionFour();
+        userScore += questionFive();
 
         Toast.makeText(this, "Your score is " + userScore + " points!", Toast.LENGTH_LONG).show();
     }
@@ -82,6 +84,21 @@ public class MainActivity extends AppCompatActivity {
         //Log.d("Question Four", "Answer: " + answer);
 
         if(answer.equals("huron") || answer.equals("ontario") || answer.equals("michigan") || answer.equals("erie") || answer.equals("superior")){
+            return 1;
+        }
+        return 0;
+    }
+
+    /**
+     *
+     * @return 0 or 1 depending on if the user chose the correct answer or not
+     */
+    public int questionFive(){
+        CheckBox reykjavikCheckBox = (CheckBox)findViewById(R.id.reykjavik_checkbox);
+        CheckBox barcelonaCheckBox = (CheckBox)findViewById(R.id.barcelona_checkbox);
+        CheckBox pragueCheckBox = (CheckBox)findViewById(R.id.prague_checkbox);
+
+        if(reykjavikCheckBox.isChecked() && barcelonaCheckBox.isChecked() && pragueCheckBox.isChecked()){
             return 1;
         }
         return 0;
