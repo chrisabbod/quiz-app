@@ -30,7 +30,15 @@ public class MainActivity extends AppCompatActivity {
             //Toast.makeText(this, "TRUE", Toast.LENGTH_LONG).show();
             return 1;
         }
+        return 0;
+    }
 
+    public int questionTwo(){
+        RadioButton atlanticButton = (RadioButton)findViewById(R.id.atlantic_radio_button);
+
+        if(atlanticButton.isChecked()){
+            return 1;
+        }
         return 0;
     }
 }
