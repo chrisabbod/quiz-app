@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         userScore += questionFive();
         userScore += questionSix();
         userScore += questionSeven();
+        userScore += questionEight();
 
         Toast.makeText(this, "Your score is " + userScore + " points!", Toast.LENGTH_LONG).show();
     }
@@ -131,6 +132,19 @@ public class MainActivity extends AppCompatActivity {
         CheckBox netherlandsCheckBox = (CheckBox)findViewById(R.id.netherlands_checkbox);
 
         if(italyCheckBox.isChecked() && germanyCheckBox.isChecked() && spainCheckBox.isChecked() && !netherlandsCheckBox.isChecked()){
+            return 1;
+        }
+        return 0;
+    }
+
+    /**
+     *
+     * @return 0 or 1 depending on if the user chose the correct answer or not
+     */
+    public int questionEight(){
+        RadioButton michiganRadioButton = (RadioButton)findViewById(R.id.michigan_radio_button);
+
+        if(michiganRadioButton.isChecked()){
             return 1;
         }
         return 0;
