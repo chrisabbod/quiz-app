@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -16,13 +17,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
     }
 
     /**
      * Display toast with user's score after pressing the submit button
      *
-     * @param v is the submit_button
+     * @param v is the submit_button view in activity_main
      */
     public void getScore(View v){
         int userScore = 0;
@@ -89,7 +90,6 @@ public class MainActivity extends AppCompatActivity {
     public int questionFour(){
         EditText q4EditText = (EditText)findViewById(R.id.q4_edit_text);
         String answer = q4EditText.getText().toString().toLowerCase();    //Extracts string and sets to lower case to make sure user gets credit for answer if there are upper case letters
-        //Log.d("Question Four", "Answer: " + answer);
 
         if(answer.equals("huron") || answer.equals("ontario") || answer.equals("michigan") || answer.equals("erie") || answer.equals("superior")){
             return 1;
@@ -162,7 +162,6 @@ public class MainActivity extends AppCompatActivity {
     public int questionNine(){
         EditText q9EditText = (EditText)findViewById(R.id.q9_edit_text);
         String answer = q9EditText.getText().toString().toLowerCase();    //Extracts string and sets to lower case to make sure user gets credit for answer if there are upper case letters
-        //Log.d("Question Nine", "Answer: " + answer);
 
         if(answer.equals("arizona")){
             return 1;
