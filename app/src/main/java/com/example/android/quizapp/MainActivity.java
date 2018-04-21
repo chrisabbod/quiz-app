@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         userScore += questionThree();
         userScore += questionFour();
         userScore += questionFive();
+        userScore += questionSix();
 
         Toast.makeText(this, "Your score is " + userScore + " points!", Toast.LENGTH_LONG).show();
     }
@@ -99,6 +100,19 @@ public class MainActivity extends AppCompatActivity {
         CheckBox pragueCheckBox = (CheckBox)findViewById(R.id.prague_checkbox);
 
         if(reykjavikCheckBox.isChecked() && barcelonaCheckBox.isChecked() && pragueCheckBox.isChecked()){
+            return 1;
+        }
+        return 0;
+    }
+
+    /**
+     *
+     * @return 0 or 1 depending on if the user chose the correct answer or not
+     */
+    public int questionSix(){
+        RadioButton fourRadioButton = (RadioButton)findViewById(R.id.four_radio_button);
+
+        if(fourRadioButton.isChecked()){
             return 1;
         }
         return 0;
