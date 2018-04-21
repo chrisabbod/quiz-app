@@ -33,9 +33,9 @@ public class MainActivity extends AppCompatActivity {
      * @return 0 or 1 depending on if the user chose the correct answer or not
      */
     public int questionOne(){
-        RadioButton trueButton = (RadioButton)findViewById(R.id.q1_true_radio_button);
+        RadioButton trueRadioButton = (RadioButton)findViewById(R.id.q1_true_radio_button);
 
-        if(trueButton.isChecked()){
+        if(trueRadioButton.isChecked()){
             //Toast.makeText(this, "TRUE", Toast.LENGTH_LONG).show();
             return 1;
         }
@@ -47,9 +47,22 @@ public class MainActivity extends AppCompatActivity {
      * @return 0 or 1 depending on if the user chose the correct answer or not
      */
     public int questionTwo(){
-        RadioButton atlanticButton = (RadioButton)findViewById(R.id.atlantic_radio_button);
+        RadioButton atlanticRadioButton = (RadioButton)findViewById(R.id.atlantic_radio_button);
 
-        if(atlanticButton.isChecked()){
+        if(atlanticRadioButton.isChecked()){
+            return 1;
+        }
+        return 0;
+    }
+
+    /**
+     *
+     * @return 0 or 1 depending on if the user chose the correct answer or not
+     */
+    public int questionThree(){
+        RadioButton everestRadioButton = (RadioButton)findViewById(R.id.everest_radio_button);
+
+        if(everestRadioButton.isChecked()){
             return 1;
         }
         return 0;
