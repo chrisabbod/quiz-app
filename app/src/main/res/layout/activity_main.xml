@@ -56,6 +56,25 @@
                 android:layout_height="wrap_content"
                 android:text="@string/atlantic"
                 android:textAppearance="?android:textAppearanceMedium" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/indian_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/indian"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/eastern_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eastern"
+                android:textAppearance="?android:textAppearanceMedium" />
         </RadioGroup>
 
         <!-- QUESTION 3 -->

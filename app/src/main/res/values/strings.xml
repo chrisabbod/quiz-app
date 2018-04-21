@@ -19,10 +19,10 @@
     <string name="answer_true">True</string>
     <string name="answer_false">False</string>
 
-    <string name="atlantic">Atlantic</string>
-    <string name="pacific">Pacific</string>
-    <string name="indian">Indian</string>
-    <string name="eastern">Eastern</string>
+    <string name="atlantic">Atlantic Ocean</string>
+    <string name="pacific">Pacific Ocean</string>
+    <string name="indian">Indian Ocean</string>
+    <string name="eastern">Eastern Ocean</string>
 
     <string name="k2">K2</string>
     <string name="kilimanjaro">Kilimanjaro</string>
