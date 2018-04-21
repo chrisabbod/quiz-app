@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         userScore += questionFour();
         userScore += questionFive();
         userScore += questionSix();
+        userScore += questionSeven();
 
         Toast.makeText(this, "Your score is " + userScore + " points!", Toast.LENGTH_LONG).show();
     }
@@ -98,8 +99,9 @@ public class MainActivity extends AppCompatActivity {
         CheckBox reykjavikCheckBox = (CheckBox)findViewById(R.id.reykjavik_checkbox);
         CheckBox barcelonaCheckBox = (CheckBox)findViewById(R.id.barcelona_checkbox);
         CheckBox pragueCheckBox = (CheckBox)findViewById(R.id.prague_checkbox);
+        CheckBox moscowCheckBox = (CheckBox)findViewById(R.id.moscow_checkbox);
 
-        if(reykjavikCheckBox.isChecked() && barcelonaCheckBox.isChecked() && pragueCheckBox.isChecked()){
+        if(reykjavikCheckBox.isChecked() && barcelonaCheckBox.isChecked() && pragueCheckBox.isChecked() && !moscowCheckBox.isChecked()){
             return 1;
         }
         return 0;
@@ -113,6 +115,22 @@ public class MainActivity extends AppCompatActivity {
         RadioButton fourRadioButton = (RadioButton)findViewById(R.id.four_radio_button);
 
         if(fourRadioButton.isChecked()){
+            return 1;
+        }
+        return 0;
+    }
+
+    /**
+     *
+     * @return 0 or 1 depending on if the user chose the correct answer or not
+     */
+    public int questionSeven(){
+        CheckBox italyCheckBox = (CheckBox)findViewById(R.id.italy_checkbox);
+        CheckBox germanyCheckBox = (CheckBox)findViewById(R.id.germany_checkbox);
+        CheckBox spainCheckBox = (CheckBox)findViewById(R.id.spain_checkbox);
+        CheckBox netherlandsCheckBox = (CheckBox)findViewById(R.id.netherlands_checkbox);
+
+        if(italyCheckBox.isChecked() && germanyCheckBox.isChecked() && spainCheckBox.isChecked() && !netherlandsCheckBox.isChecked()){
             return 1;
         }
         return 0;
