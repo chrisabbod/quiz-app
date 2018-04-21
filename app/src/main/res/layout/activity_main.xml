@@ -19,7 +19,7 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
             <RadioButton
                 android:id="@+id/q1_true_radio_button"
                 android:layout_width="wrap_content"
@@ -43,7 +43,7 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
             <RadioButton
                 android:id="@+id/pacific_radio_button"
                 android:layout_width="wrap_content"
@@ -56,13 +56,6 @@
                 android:layout_height="wrap_content"
                 android:text="@string/atlantic"
                 android:textAppearance="?android:textAppearanceMedium" />
-
-        </RadioGroup>
-
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
             <RadioButton
                 android:id="@+id/indian_radio_button"
                 android:layout_width="wrap_content"
@@ -86,7 +79,7 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
             <RadioButton
                 android:id="@+id/everest_radio_button"
                 android:layout_width="wrap_content"
@@ -99,12 +92,6 @@
                 android:layout_height="wrap_content"
                 android:text="@string/kilimanjaro"
                 android:textAppearance="?android:textAppearanceMedium" />
-        </RadioGroup>
-
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
             <RadioButton
                 android:id="@+id/k2_radio_button"
                 android:layout_width="wrap_content"
@@ -184,7 +171,7 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
             <RadioButton
                 android:id="@+id/four_radio_button"
                 android:layout_width="wrap_content"
@@ -270,7 +257,7 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
             <RadioButton
                 android:id="@+id/superior_radio_button"
                 android:layout_width="wrap_content"
@@ -283,12 +270,6 @@
                 android:layout_height="wrap_content"
                 android:text="@string/michigan"
                 android:textAppearance="?android:textAppearanceMedium" />
-        </RadioGroup>
-
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
             <RadioButton
                 android:id="@+id/huron_radio_button"
                 android:layout_width="wrap_content"
@@ -302,6 +283,7 @@
                 android:text="@string/erie"
                 android:textAppearance="?android:textAppearanceMedium" />
         </RadioGroup>
+
         <!-- QUESTION 9 -->
         <TextView
             android:text="@string/question_nine"
@@ -323,7 +305,7 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
             <RadioButton
                 android:id="@+id/amazon_radio_button"
                 android:layout_width="wrap_content"
@@ -336,12 +318,6 @@
                 android:layout_height="wrap_content"
                 android:text="@string/nile"
                 android:textAppearance="?android:textAppearanceMedium" />
-        </RadioGroup>
-
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
             <RadioButton
                 android:id="@+id/congo_radio_button"
                 android:layout_width="wrap_content"
