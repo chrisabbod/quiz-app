@@ -35,7 +35,11 @@ public class MainActivity extends AppCompatActivity {
         userScore += questionSeven();
         userScore += questionEight();
         userScore += questionNine();
+        userScore += questionTen();
 
+        if(userScore == 10){
+            Toast.makeText(this, "You got a perfect score! Great job!", Toast.LENGTH_LONG).show();
+        }
         Toast.makeText(this, "Your score is " + userScore + " points!", Toast.LENGTH_LONG).show();
     }
 
@@ -161,6 +165,19 @@ public class MainActivity extends AppCompatActivity {
         //Log.d("Question Nine", "Answer: " + answer);
 
         if(answer.equals("arizona")){
+            return 1;
+        }
+        return 0;
+    }
+
+    /**
+     *
+     * @return 0 or 1 depending on if the user chose the correct answer or not
+     */
+    public int questionTen(){
+        RadioButton nileRadioButton = (RadioButton)findViewById(R.id.nile_radio_button);
+
+        if(nileRadioButton.isChecked()){
             return 1;
         }
         return 0;
