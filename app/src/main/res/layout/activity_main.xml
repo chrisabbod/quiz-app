@@ -291,7 +291,7 @@
             android:layout_height="wrap_content"/>
 
         <EditText
-            android:id="@+id/q5_edit_text"
+            android:id="@+id/q9_edit_text"
             android:hint="@string/edit_text_hint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

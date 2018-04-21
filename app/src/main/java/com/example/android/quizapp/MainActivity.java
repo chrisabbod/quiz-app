@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         userScore += questionSix();
         userScore += questionSeven();
         userScore += questionEight();
+        userScore += questionNine();
 
         Toast.makeText(this, "Your score is " + userScore + " points!", Toast.LENGTH_LONG).show();
     }
@@ -145,6 +146,21 @@ public class MainActivity extends AppCompatActivity {
         RadioButton michiganRadioButton = (RadioButton)findViewById(R.id.michigan_radio_button);
 
         if(michiganRadioButton.isChecked()){
+            return 1;
+        }
+        return 0;
+    }
+
+    /**
+     *
+     * @return 0 or 1 depending on if the user chose the correct answer or not
+     */
+    public int questionNine(){
+        EditText q9EditText = (EditText)findViewById(R.id.q9_edit_text);
+        String answer = q9EditText.getText().toString().toLowerCase();    //Extracts string and sets to lower case to make sure user gets credit for answer if there are upper case letters
+        //Log.d("Question Nine", "Answer: " + answer);
+
+        if(answer.equals("arizona")){
             return 1;
         }
         return 0;
