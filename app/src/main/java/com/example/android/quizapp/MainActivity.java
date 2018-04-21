@@ -39,9 +39,10 @@ public class MainActivity extends AppCompatActivity {
         userScore += questionTen();
 
         if(userScore == 10){
-            Toast.makeText(this, "You got a perfect score! Great job!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "You got a perfect score! 10/10! Great job!", Toast.LENGTH_LONG).show();
+        }else{
+            Toast.makeText(this, "Your score is " + userScore + " points!", Toast.LENGTH_LONG).show();
         }
-        Toast.makeText(this, "Your score is " + userScore + " points!", Toast.LENGTH_LONG).show();
     }
 
     /**
