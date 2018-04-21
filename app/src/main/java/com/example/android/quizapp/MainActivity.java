@@ -17,12 +17,21 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * Display toast with user's score after pressing the submit button
+     *
+     * @param v is the submit_button
+     */
     public void getScore(View v){
         userScore += questionOne();
 
         Toast.makeText(this, "Your score is " + userScore + " points!", Toast.LENGTH_LONG).show();
     }
 
+    /**
+     *
+     * @return 0 or 1 depending on if the user chose the correct answer or not
+     */
     public int questionOne(){
         RadioButton trueButton = (RadioButton)findViewById(R.id.q1_true_radio_button);
 
@@ -33,6 +42,10 @@ public class MainActivity extends AppCompatActivity {
         return 0;
     }
 
+    /**
+     *
+     * @return 0 or 1 depending on if the user chose the correct answer or not
+     */
     public int questionTwo(){
         RadioButton atlanticButton = (RadioButton)findViewById(R.id.atlantic_radio_button);
 
